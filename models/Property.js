@@ -17,7 +17,6 @@ const propertySchema = new mongoose.Schema({
     default: null
   },
   
-  // --- ADD THIS MISSING PIECE! ---
   images: [{
     url: String,
     mimeType: String,
